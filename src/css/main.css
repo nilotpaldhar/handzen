@@ -8324,3 +8324,59 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  height: 100%; }
+
+body {
+  color: #16133D;
+  line-height: 1.8; }
+
+.heading {
+  line-height: 1.2; }
+  .heading__primary {
+    color: #16133D;
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-transform: capitalize; }
+    @media only screen and (min-width: 992px) {
+      .heading__primary {
+        font-size: 3.5rem; } }
+
+.image-slider {
+  overflow: hidden;
+  outline: none;
+  border-radius: 3px; }
+
+.header {
+  margin-top: 3.5rem; }
+  @media only screen and (min-width: 992px) {
+    .header {
+      margin-top: 6rem; } }
+  .header__text {
+    font-size: 1.2rem;
+    margin-top: 1.24rem;
+    margin-bottom: 1.8rem; }
+    @media only screen and (min-width: 992px) {
+      .header__text {
+        margin-top: 1.8rem;
+        margin-bottom: 2rem; } }
+
+.navbar {
+  border-bottom: 1px solid #EFEEF3;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #16133D;
+  font-weight: 700;
+  text-transform: capitalize; }
+  @media only screen and (min-width: 992px) {
+    .navbar-light .navbar-nav .nav-link {
+      padding: 0.5rem 1.5rem; } }

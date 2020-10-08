@@ -1,0 +1,14 @@
+.heading {
+    line-height: 1.2;
+
+    &__primary {
+        color: $secondary;
+        font-weight: 600;
+        font-size: 2.5rem;
+        text-transform: capitalize;
+
+        @include respond(large) {
+            font-size: 3.5rem;
+        }
+    }
+}
