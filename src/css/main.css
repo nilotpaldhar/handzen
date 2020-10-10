@@ -1,4 +1,6 @@
 /*  Override bootstrap variables */
+/*  Custom variables  */
+/*  Breakpoint variable */
 /*      Bootstrap scss     */
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
@@ -8339,7 +8341,8 @@ body {
   line-height: 1.8; }
 
 .heading {
-  line-height: 1.2; }
+  line-height: 1.2;
+  margin: 0; }
   .heading__primary {
     color: #16133D;
     font-weight: 600;
@@ -8348,11 +8351,102 @@ body {
     @media only screen and (min-width: 992px) {
       .heading__primary {
         font-size: 3.5rem; } }
+  .heading__secondary {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #16133D;
+    text-transform: capitalize; }
+    @media only screen and (min-width: 992px) {
+      .heading__secondary {
+        font-size: 2.5rem; } }
+  .heading__sub {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5; }
+    .heading__sub--light {
+      color: #7690A8; }
 
 .image-slider {
   overflow: hidden;
   outline: none;
   border-radius: 3px; }
+
+.service {
+  padding: 2.5rem;
+  border-radius: 8px;
+  border: 1px solid #E5EAF4; }
+  .service__icon-box {
+    display: inline-block;
+    padding: 1rem;
+    border: 1px solid rgba(21, 101, 216, 0.1);
+    border-radius: 1rem; }
+  .service__icon {
+    width: 2.25rem;
+    height: 2.25rem; }
+  .service__title {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: 0.2px;
+    margin-top: 1.4rem; }
+  .service__text {
+    font-weight: 400;
+    margin: 0;
+    margin-top: 0.4rem; }
+  .service__link, .service__link:link, .service__link:visited {
+    display: block;
+    color: #16133D;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 0.8rem;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in; }
+    .service__link:hover, .service__link:link:hover, .service__link:visited:hover {
+      color: rgba(22, 19, 61, 0.8); }
+
+.price-card {
+  text-align: center;
+  padding: 3rem 0;
+  border-top: 3px solid; }
+  .price-card--starter {
+    border-color: #007FFC; }
+  .price-card--premium {
+    border-color: #52C29D; }
+  .price-card--business {
+    border-color: #F04D5D; }
+  .price-card__plan {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize; }
+  .price-card__price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem; }
+  .price-card__duraion {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #7690A8; }
+  .price-card__text {
+    color: #7690A8;
+    margin: 1.3rem 0 2.5rem 0; }
+  .price-card__btn, .price-card__btn:link, .price-card__btn:visited {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #16133D;
+    border: 2px solid #16133D;
+    border-radius: 3rem;
+    padding: 0.7rem 1.5rem;
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in; }
+    .price-card__btn:hover, .price-card__btn:link:hover, .price-card__btn:visited:hover {
+      background-color: #16133D;
+      color: #EFEEF3; }
 
 .header {
   margin-top: 3.5rem; }
@@ -8380,3 +8474,13 @@ body {
   @media only screen and (min-width: 992px) {
     .navbar-light .navbar-nav .nav-link {
       padding: 0.5rem 1.5rem; } }
+
+.services {
+  margin-top: 8rem; }
+  .services .heading__secondary {
+    margin: 0.9rem 0 0.5rem 0; }
+
+.pricing {
+  margin-top: 8rem; }
+  .pricing .heading__secondary {
+    margin-bottom: 0.5rem; }

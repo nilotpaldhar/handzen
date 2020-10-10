@@ -1,0 +1,46 @@
+.service {
+    padding: 2.5rem;
+    border-radius: 8px;
+    border: 1px solid $light-1;
+
+    &__icon-box {
+        display: inline-block;
+        padding: 1rem;
+        border: 1px solid rgba($primary-dark, 0.1);
+        border-radius: 1rem;
+    }
+
+    &__icon {
+        width: 2.25rem;
+        height: 2.25rem;
+    }
+
+    &__title {
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        letter-spacing: 0.2px;
+        margin-top: 1.4rem;
+    }
+
+    &__text {
+        font-weight: 400;
+        margin: 0;
+        margin-top: 0.4rem;
+    }
+
+    &__link,
+    &__link:link,
+    &__link:visited {
+        display: block;
+        color: $secondary;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-top: 0.8rem;
+        text-decoration: none;
+        transition: all 0.2s ease-in;
+
+        &:hover {
+            color: rgba($secondary, .8);
+        }
+    }
+}
