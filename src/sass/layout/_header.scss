@@ -1,8 +1,8 @@
 .header {
-    margin-top: 3.5rem;
+    margin-top: 10rem;
 
     @include respond(large) {
-        margin-top: 6rem;
+        margin-top: 12rem;
     }
 
     &__text {
