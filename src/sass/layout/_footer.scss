@@ -1,0 +1,78 @@
+.footer {
+    margin-top: 8rem;
+    background-color: $secondary;
+    color: $light;
+    padding: 4.3rem 0;
+
+    &__logo {
+        display: inline-block;
+        text-decoration: none;
+        margin-bottom: 1.8rem;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__text {
+        margin: 0;
+        font-weight: 300;
+        font-size: 1rem;
+        max-width: 30ch;
+    }
+
+    .social {
+        margin-top: 1.8rem;
+    }
+
+    &__nav-title {
+        font-size: 1.125rem;
+        text-transform: uppercase;
+        margin-bottom: 1.8rem;
+        letter-spacing: 1px;
+    }
+
+    &__nav {
+        list-style: none;
+        padding: 0;
+    }
+
+    &__nav-item {
+        &:not(:last-child) {
+            margin-bottom: 1.2rem;
+        }
+    }
+
+    &__nav-link,
+    &__nav-link:link,
+    &__nav-link:visited {
+        color: inherit;
+        font-size: 0.875rem;
+        font-weight: 300;
+        text-transform: capitalize;
+        transition: all 0.2s ease-in;
+
+        &:hover {
+            color: rgba($light, 0.8);
+            text-decoration: none;
+        }
+    }
+
+    &__email {
+        font-size: 1.5rem;
+        line-height: 1;
+        margin-top: 1.2rem;
+    }
+
+    &__copyright {
+        margin: 0;
+        text-align: center;
+        font-weight: 400;
+        margin-top: 4rem;
+
+        @include respond(large) {
+            margin-top: 8rem;
+        }
+    }
+
+}

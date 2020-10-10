@@ -8448,6 +8448,26 @@ body {
       background-color: #16133D;
       color: #EFEEF3; }
 
+.social {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .social__item:not(:last-child) {
+    margin-right: 8px; }
+  .social__link, .social__link:link, .social__link:visited {
+    display: inline-block;
+    height: 2.3rem;
+    width: 2.3rem;
+    text-align: center;
+    background-color: #EFEEF3;
+    border-radius: 5px; }
+  .social__icon {
+    height: 1.25rem;
+    width: 1.25rem;
+    fill: #16133D; }
+
 .header {
   margin-top: 3.5rem; }
   @media only screen and (min-width: 992px) {
@@ -8461,6 +8481,58 @@ body {
       .header__text {
         margin-top: 1.8rem;
         margin-bottom: 2rem; } }
+
+.footer {
+  margin-top: 8rem;
+  background-color: #16133D;
+  color: #EFEEF3;
+  padding: 4.3rem 0; }
+  .footer__logo {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 1.8rem; }
+    .footer__logo img {
+      width: 100%; }
+  .footer__text {
+    margin: 0;
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 30ch; }
+  .footer .social {
+    margin-top: 1.8rem; }
+  .footer__nav-title {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    margin-bottom: 1.8rem;
+    letter-spacing: 1px; }
+  .footer__nav {
+    list-style: none;
+    padding: 0; }
+  .footer__nav-item:not(:last-child) {
+    margin-bottom: 1.2rem; }
+  .footer__nav-link, .footer__nav-link:link, .footer__nav-link:visited {
+    color: inherit;
+    font-size: 0.875rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in; }
+    .footer__nav-link:hover, .footer__nav-link:link:hover, .footer__nav-link:visited:hover {
+      color: rgba(239, 238, 243, 0.8);
+      text-decoration: none; }
+  .footer__email {
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-top: 1.2rem; }
+  .footer__copyright {
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 4rem; }
+    @media only screen and (min-width: 992px) {
+      .footer__copyright {
+        margin-top: 8rem; } }
 
 .navbar {
   border-bottom: 1px solid #EFEEF3;

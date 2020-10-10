@@ -1,5 +1,5 @@
 <svg width="0" height="0" class="hidden">
-  <symbol viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg" id="facebook">
-    <path d="M9.345 11.465l.518-3.38H6.621V5.894c0-.925.453-1.826 1.905-1.826H10V1.19S8.662.96 7.383.96c-2.67 0-4.415 1.62-4.415 4.55v2.575H0v3.38h2.968v8.17h3.653v-8.17h2.724z" fill="#0D0D0D"></path>
+  <symbol viewBox="0 0 10 20"  xmlns="http://www.w3.org/2000/svg" id="facebook">
+    <path d="M9.345 11.465l.518-3.38H6.621V5.894c0-.925.453-1.826 1.905-1.826H10V1.19S8.662.96 7.383.96c-2.67 0-4.415 1.62-4.415 4.55v2.575H0v3.38h2.968v8.17h3.653v-8.17h2.724z" ></path>
   </symbol>
 </svg>

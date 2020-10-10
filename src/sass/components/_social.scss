@@ -1,0 +1,29 @@
+.social {
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+
+    &__item {
+        &:not(:last-child) {
+            margin-right: 8px;
+        }
+    }
+
+    &__link,
+    &__link:link,
+    &__link:visited {
+        display: inline-block;
+        height: 2.3rem;
+        width: 2.3rem;
+        text-align: center;
+        background-color: $light;
+        border-radius: 5px;
+    }
+
+    &__icon {
+        height: 1.25rem;
+        width: 1.25rem;
+        fill: $secondary;
+    }
+}
