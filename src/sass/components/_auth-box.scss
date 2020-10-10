@@ -1,0 +1,62 @@
+.auth-box {
+    text-align: center;
+    border: 1px solid $light;
+    padding: 3rem 1rem;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 3rem 0;
+
+    @include respond(medium) {
+        padding: 3rem 2.8rem;
+    }
+
+    &__logo {
+        display: inline-block;
+        margin-bottom: 0.93rem;
+    }
+
+    &__text {
+        font-weight: 300;
+        margin-bottom: 3rem;
+    }
+
+    &__divider {
+        font-size: 1.25rem;
+        font-weight: 300;
+        color: $light-2;
+        margin: 1.8rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+            flex: 1;
+        }
+
+        &::before,
+        &::after {
+            content: '';
+            display: block;
+            height: 2px;
+            width: 25%;
+            background-color: $light-2;
+            opacity: 0.25;
+
+            @include respond(large) {
+                width: 30%;
+            }
+        }
+    }
+
+    &__link,
+    &__link:link,
+    &__link:visited {
+        color: $light-2;
+        text-decoration: none;
+        transition: color 0.2s ease-in;
+
+        &:hover {
+            color: darken($light-2, 20);
+        }
+    }
+}

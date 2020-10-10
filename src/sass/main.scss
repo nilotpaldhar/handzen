@@ -4,12 +4,16 @@
 @import './vendor/vendor';
 
 @import './base/base';
+@import './base/helpers';
 @import './base/typography';
 
 @import './components/image-slider';
 @import './components/service';
 @import './components/price-card';
 @import './components/social';
+@import './components/auth-box';
+@import './components/form';
+@import './components/social-button';
 
 @import './layout/header';
 @import './layout/footer';
