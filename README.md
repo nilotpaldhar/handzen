@@ -26,7 +26,7 @@ gulp
 
 👤 **Nilotpal Dhar**
 
-- Website: htt[sttps://www.nilotpaldhar.com:
+- Website: https://www.nilotpaldhar.com
 - Twitter: [@NilotpalDhar97](https://twitter.com/NilotpalDhar97)
 - Github: [@nilotpaldhar](https://github.com/nilotpaldhar)
 - LinkedIn: [@nilotpaldhar](https://linkedin.com/in/nilotpaldhar)
