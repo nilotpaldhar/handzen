@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 [![Twitter: NilotpalDhar97](https://img.shields.io/twitter/follow/NilotpalDhar97.svg?style=social)](https://twitter.com/NilotpalDhar97)
 
-[![2637VI.md.png](https://iili.io/2637VI.md.png)](https://freeimage.host/i/2637VI)
+[![Project Image](https://iili.io/2637VI.md.png)](https://freeimage.host/i/2637VI)
 
 ### ✨ [Demo](https://handzen.netlify.app/)
 
