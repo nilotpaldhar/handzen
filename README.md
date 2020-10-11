@@ -4,9 +4,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 [![Twitter: NilotpalDhar97](https://img.shields.io/twitter/follow/NilotpalDhar97.svg?style=social)](https://twitter.com/NilotpalDhar97)
 
-[![Project Image](https://iili.io/2637VI.md.png)](https://freeimage.host/i/2637VI)
+![26qaIf.png](https://iili.io/26qaIf.png)
 
-### ✨ [Demo](https://handzen.netlify.app/)
+### ✨ [Live Website](https://handzen.netlify.app/)
 
 ## Install
 
@@ -26,7 +26,7 @@ gulp
 
 👤 **Nilotpal Dhar**
 
-- Website: htt[sttps://www.nilotpaldhar.com:
+- Website: https://www.nilotpaldhar.com:
 - Twitter: [@NilotpalDhar97](https://twitter.com/NilotpalDhar97)
 - Github: [@nilotpaldhar](https://github.com/nilotpaldhar)
 - LinkedIn: [@nilotpaldhar](https://linkedin.com/in/nilotpaldhar)
